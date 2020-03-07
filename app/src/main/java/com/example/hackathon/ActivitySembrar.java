@@ -29,5 +29,6 @@ public class ActivitySembrar extends AppCompatActivity {
         recyclerViewCultivos.setLayoutManager(new GridLayoutManager(ActivitySembrar.this, 1, LinearLayoutManager.VERTICAL, false));
 
 
+
     }
 }

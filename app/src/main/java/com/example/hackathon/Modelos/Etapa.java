@@ -1,6 +1,8 @@
 package com.example.hackathon.Modelos;
 
-class Etapa {
+import java.io.Serializable;
+
+public class Etapa implements Serializable {
 
     private int temperaturaMaxima;
     private int temperaturaMinima;

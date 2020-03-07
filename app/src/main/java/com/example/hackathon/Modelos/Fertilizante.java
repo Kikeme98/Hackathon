@@ -1,6 +1,8 @@
 package com.example.hackathon.Modelos;
 
-class Fertilizante {
+import java.io.Serializable;
+
+class Fertilizante implements Serializable {
 
     private String cantidad;
     private String tiempo;

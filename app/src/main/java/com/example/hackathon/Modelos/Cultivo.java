@@ -1,6 +1,8 @@
 package com.example.hackathon.Modelos;
 
-public class Cultivo {
+import java.io.Serializable;
+
+public class Cultivo implements Serializable {
 
     private String cultivo;
     private String cobertura;

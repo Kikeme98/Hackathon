@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Hackathon</string>
+    <string name="title_activity_cultivo">ActivityCultivo</string>
+    <string name="tab_text_1">Etapa 1</string>
+    <string name="tab_text_2">Etapa 2</string>
+    <string name="tab_text_3">Etapa 3</string>
+    <string name="tab_text_4">Etapa 4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

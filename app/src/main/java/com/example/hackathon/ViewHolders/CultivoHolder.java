@@ -19,5 +19,6 @@ public class CultivoHolder extends RecyclerView.ViewHolder {
 
         txtNombreCultivo = itemView.findViewById(R.id.txtCultivoNombre);
 
+
     }
 }
