@@ -38,10 +38,10 @@ public class FragmentEtapa3 extends Fragment {
         txtTiempoFert3 = view.findViewById(R.id.txtTieFer3);
         Cultivo cultivo = (Cultivo) getActivity().getIntent().getSerializableExtra("cultivo");
         txtDias3.setText(cultivo.getEtapa3().getDiasDuracion());
-        txtTempMin3.setText(cultivo.getEtapa3().getTemperaturaMinima()+"");
-        txtTempMax3.setText(cultivo.getEtapa3().getTemperaturaMaxima()+"");
+        txtTempMin3.setText(cultivo.getEtapa3().getTemperaturaMinima()+"°C");
+        txtTempMax3.setText(cultivo.getEtapa3().getTemperaturaMaxima()+"°C");
         txtPh3.setText(cultivo.getEtapa3().getPh());
-        txtCanFertilizante3.setText(cultivo.getEtapa3().getFertilizante().getCantidad());
+        txtCanFertilizante3.setText(cultivo.getEtapa3().getFertilizante().getCantidad()+"ppm");
         txtTiempoFert3.setText(cultivo.getEtapa3().getFertilizante().getTiempo());
         return view;
     }

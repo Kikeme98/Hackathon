@@ -37,8 +37,8 @@ public class FragmentEtapa2 extends Fragment {
         txtTempMin2 = view.findViewById(R.id.txtTemMin2);
         Cultivo cultivo = (Cultivo) getActivity().getIntent().getSerializableExtra("cultivo");
         txtDias2.setText(cultivo.getEtapa2().getDiasDuracion());
-        txtTempMin2.setText(cultivo.getEtapa2().getTemperaturaMinima()+"");
-        txtTempMax2.setText(cultivo.getEtapa2().getTemperaturaMaxima()+"");
+        txtTempMin2.setText(cultivo.getEtapa2().getTemperaturaMinima()+"°C");
+        txtTempMax2.setText(cultivo.getEtapa2().getTemperaturaMaxima()+"°C");
         txtHum2.setText(cultivo.getEtapa2().getHumedad());
         return view;
     }

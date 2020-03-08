@@ -207,7 +207,7 @@
                 android:layout_weight="2"
                 android:fontFamily="@font/chelsea_market"
                 android:gravity="center_vertical"
-                android:text="PH: "
+                android:text="CE: "
                 android:textColor="@color/negro"
                 android:textSize="20dp" />
 

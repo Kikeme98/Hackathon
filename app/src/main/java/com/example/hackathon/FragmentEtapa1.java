@@ -44,15 +44,14 @@ public class FragmentEtapa1 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_etapa1, container, false);
         // Inflate the layout for this fragment
         Cultivo cultivo = (Cultivo) getActivity().getIntent().getSerializableExtra("cultivo");
-        Toast.makeText(getContext(), cultivo.getCultivo(), Toast.LENGTH_LONG).show();
         txtDias1 = view.findViewById(R.id.txtDias1);
         txtHum1 = view.findViewById(R.id.txtHum1);
         txtTempMax1 = view.findViewById(R.id.txtTemMax1);
         txtTempMin1 = view.findViewById(R.id.txtTemMin1);
 
         txtDias1.setText(cultivo.getEtapa1().getDiasDuracion());
-        txtTempMin1.setText(cultivo.getEtapa1().getTemperaturaMinima()+"");
-        txtTempMax1.setText(cultivo.getEtapa1().getTemperaturaMaxima()+"");
+        txtTempMin1.setText(cultivo.getEtapa1().getTemperaturaMinima()+"°C");
+        txtTempMax1.setText(cultivo.getEtapa1().getTemperaturaMaxima()+"°C");
         txtHum1.setText(cultivo.getEtapa1().getHumedad());
 
         return view;
