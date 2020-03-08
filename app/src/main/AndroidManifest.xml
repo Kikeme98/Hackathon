@@ -14,7 +14,7 @@
             android:label="@string/title_activity_cultivo"></activity>
         <activity android:name=".ActivitySembrar" />
         <activity android:name=".MainActivity"
-            android:screenOrientation="">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
