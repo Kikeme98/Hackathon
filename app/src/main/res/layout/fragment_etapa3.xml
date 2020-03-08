@@ -3,13 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentEtapa2">
+    tools:context=".FragmentEtapa3">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@drawable/backetapas">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,9 +30,95 @@
                 android:textSize="45dp" />
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/chelsea_market"
+                android:text="Fertilizante"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:textSize="21dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/chelsea_market"
+                android:text="Cantidad:"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/chelsea_market"
+                android:text="Tiempo"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:textSize="21dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:hint="100 - 150"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/chelsea_market"
+                android:textColor="@color/negro"
+                android:gravity="center"
+                android:hint="semanal"
+                android:textSize="20dp" />
+        </LinearLayout>
+
         <Space
             android:layout_width="match_parent"
-            android:layout_height="15dp"/>
+            android:layout_height="20dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -119,7 +207,7 @@
                 android:layout_weight="2"
                 android:fontFamily="@font/chelsea_market"
                 android:gravity="center_vertical"
-                android:text="Humedad: "
+                android:text="PH: "
                 android:textColor="@color/negro"
                 android:textSize="20dp" />
 
@@ -164,7 +252,7 @@
                 android:layout_weight="3"
                 android:fontFamily="@font/chelsea_market"
                 android:gravity="center_vertical"
-                android:hint="4 - 8"
+                android:hint="0.5 - 1.5"
                 android:textSize="20dp"
                 android:layout_margin="5dp"/>
         </LinearLayout>
@@ -172,7 +260,7 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2.5"/>
+            android:layout_weight="1"/>
 
     </LinearLayout>
 
