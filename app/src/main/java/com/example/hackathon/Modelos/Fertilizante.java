@@ -2,7 +2,7 @@ package com.example.hackathon.Modelos;
 
 import java.io.Serializable;
 
-class Fertilizante implements Serializable {
+public class Fertilizante implements Serializable {
 
     private String cantidad;
     private String tiempo;
